@@ -528,7 +528,7 @@ body.offcanvas {
   position: absolute;
   display: block;
   width: 4px;
-  background: #f2f3f7;
+  background: #02dd94;
   top: 20px;
   bottom: 20px;
   margin-left: 29px; 
@@ -561,7 +561,7 @@ body.offcanvas {
   line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
-    color: #fff; }
+    color: white; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
     background: #ec5453; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
@@ -578,7 +578,7 @@ body.offcanvas {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #f2f3f7;
+  background: #02d6b2;
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
@@ -607,8 +607,11 @@ body.offcanvas {
   font-weight: 500; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
-  color: #000; }
+  color: rgb(36, 36, 36); }
 
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
+    color: rgb(75, 75, 75); }
+  
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
   -webkit-opacity: .4;
   -moz-opacity: .4;
@@ -826,7 +829,7 @@ body.offcanvas {
     height: 100px;
     display: table;
     text-align: center;
-    background: #f2f3f7;
+    background: #201f1f;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
