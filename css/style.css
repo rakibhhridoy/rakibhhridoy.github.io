@@ -865,7 +865,7 @@ body.offcanvas {
 .blog-entry {
   width: 100%;
   float: left;
-  background: #fff;
+  background: #00d6b2;
   margin-bottom: 3em; }
   @media screen and (max-width: 768px) {
     .blog-entry {
@@ -897,8 +897,11 @@ body.offcanvas {
     letter-spacing: 1px;
     font-family: "Quicksand", Arial, sans-serif; }
     .blog-entry .desc h3 a {
-      color: #000;
+      color: rgb(255, 0, 0);
       text-decoration: none; }
+    .blog-entry .desc p a{
+      color: rgb(0, 0, 0);
+    }
   .blog-entry .desc span {
     display: block;
     margin-bottom: 20px;
@@ -908,12 +911,12 @@ body.offcanvas {
     letter-spacing: 1px;
     font-weight: 400; }
     .blog-entry .desc span small i {
-      color: #999999; }
+      color: #000000; }
   .blog-entry .desc .lead {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #000; }
+    color: rgb(117, 117, 117); }
   .blog-entry:hover .blog-img img {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
