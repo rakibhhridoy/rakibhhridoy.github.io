@@ -1164,9 +1164,9 @@ small a:hover{
   cursor: pointer;
   text-decoration: none; }
   .rakibhhridoy-nav-toggle.active i::before, .rakibhhridoy-nav-toggle.active i::after {
-    background: rgb(255, 254, 254); }
+    background: rgb(53, 252, 14); }
   .rakibhhridoy-nav-toggle.dark.active i::before, .rakibhhridoy-nav-toggle.dark.active i::after {
-    background: #000; }
+    background: rgb(233, 9, 9); }
   .rakibhhridoy-nav-toggle:hover, .rakibhhridoy-nav-toggle:focus, .rakibhhridoy-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
@@ -1178,11 +1178,11 @@ small a:hover{
     *display: inline;
     width: 30px;
     height: 2px;
-    color: #000;
+    color: rgb(253, 0, 0);
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #000;
+    background: rgb(135, 160, 65);
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
@@ -1190,7 +1190,7 @@ small a:hover{
       content: '';
       width: 30px;
       height: 2px;
-      background: #000;
+      background: rgb(101, 151, 94);
       position: absolute;
       left: 0;
       -webkit-transition: 0.2s;
@@ -1198,13 +1198,13 @@ small a:hover{
       transition: 0.2s; }
   .rakibhhridoy-nav-toggle.dark i {
     position: relative;
-    color: #000;
-    background: #000;
+    color: rgb(247, 9, 9);
+    background: rgb(243, 0, 0);
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
     .rakibhhridoy-nav-toggle.dark i::before, .rakibhhridoy-nav-toggle.dark i::after {
-      background: #000;
+      background: rgb(255, 7, 201);
       -webkit-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s; }
