@@ -1164,7 +1164,7 @@ small a:hover{
   cursor: pointer;
   text-decoration: none; }
   .rakibhhridoy-nav-toggle.active i::before, .rakibhhridoy-nav-toggle.active i::after {
-    background: #000; }
+    background: rgb(255, 254, 254); }
   .rakibhhridoy-nav-toggle.dark.active i::before, .rakibhhridoy-nav-toggle.dark.active i::after {
     background: #000; }
   .rakibhhridoy-nav-toggle:hover, .rakibhhridoy-nav-toggle:focus, .rakibhhridoy-nav-toggle:active {

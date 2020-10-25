@@ -53,7 +53,8 @@
 <body>
 	<div id="rakibhhridoy-page">
 		<div class="container-wrap">
-			
+			<a href="#" class="js-rakibhhridoy-nav-toggle rakibhhridoy-nav-toggle" data-toggle="collapse" data-target="#navbar"
+				aria-expanded="false" aria-controls="navbar"><i></i></a>
 			<aside id="rakibhhridoy-aside" role="complementary" class="border js-fullheight">
 				<div class="text-center">
 					<div class="author-img" style="background-image: url(images/image.jpg);"></div>
@@ -757,22 +758,22 @@
 										<br><br>
 										<br>
 									
-							
-									<form action="mail.php" name="form" method="POST">
+									<h4 class="sent-notification"></h4>
+									<form name="form" id="email_send">
 										<div class="form-group">
-											<input type="text" name="name" class="form-control" placeholder="Name">
+											<input type="text" name="name" class="form-control" id="name" placeholder="Name">
 										</div>
 										<div class="form-group">
-											<input type="text" name="email" class="form-control" placeholder="Email">
+											<input type="text" name="email" class="form-control" id="email" placeholder="Email">
 										</div>
 										<div class="form-group">
-											<input type="text" name="subject" class="form-control" placeholder="Subject">
+											<input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
 										</div>
 										<div class="form-group">
-											<textarea name="" id="message" name="msg" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+											<textarea name="" id="msg" name="msg" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
 										</div>
 										<div class="form-group">
-											<input type="submit" name="submit" class="btn btn-primary btn-send-message" value="Send Message">
+											<input type="submit" onclick="mail()" name="submit" class="btn btn-primary btn-send-message" value="Send Message">
 										</div>
 									</form>
 
@@ -824,6 +825,45 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
+
+	<script type="text/javascript">
+		function mail(){
+			var name = $('#name');
+			var email = $('#email');
+			var subject = $('#subject');
+			var msg = $('#msg')
+
+			if(isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(msg)){
+				$ajax({
+					url:'mail.php',
+					method: 'POST',
+					dataType: 'json',
+					data:{
+						name: name.val(),
+						email: email.val(),
+						subject: subject.val(),
+						msg: msg.val()
+					}, success: function(response){
+						$('#email_send')[0].reset();
+						$('.sent-notification').text('Email Sent successfully')
+
+					}
+				})
+			}
+
+		}
+		function isNotEmpty(caller){
+			if(caller.val()== ''){
+				caller.css('border', '1px solid red');
+				return false;
+			}
+			else{
+				caller.css('border', '');
+				return true;
+			}
+		}
+
+	</script>
 
 
 	<!-- MAIN JS -->
