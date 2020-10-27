@@ -47,8 +47,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }
 
 .heading{
-  color:#d6fff5;
-  font-family: Ubuntu;
+  color:rgb(168, 249, 255);
+  font-family: monospace;
 }
 
 
@@ -75,6 +75,7 @@ button:focus {
   padding-bottom: 120px; }
 
 .mt-25 {
+  color: #f0f0f0;
   margin-top: 25px; }
 
 @media (min-width: 1200px) {
@@ -129,13 +130,13 @@ button:focus {
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 12px/120px "Roboto", sans-serif;
         text-transform: uppercase;
-        color: rgb(116, 255, 81);
+        color: rgb(168, 249, 255);
         padding: 0px;
         display: inline-block; }
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: rgb(155, 255, 41); }
+        color:rgb(168, 249, 255); }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
@@ -318,7 +319,8 @@ button:focus {
   overflow: hidden;
   margin-bottom: 0px; }
   .blog_banner .banner_inner {
-    background: #04091e;
+    background: #04091e
+    ;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -362,6 +364,7 @@ button:focus {
   height: 60%;
   width: 60%;
   border-radius: 50%;
+  margin-bottom: 15px;
 }
 
 .banner_box {
@@ -487,8 +490,8 @@ button:focus {
 
 /*========= blog_categorie_area css ===========*/
 .blog_categorie_area {
-  padding-top: 80px;
-  padding-bottom: 80px; 
+  padding-top: 100px;
+  padding-bottom: 100px; 
   background-color: #343433;
 
 }
@@ -544,31 +547,31 @@ button:focus {
 }
 
 .blog_info {
-  padding-top: 30px; }
+  padding-top: 85px; }
   .blog_info .post_tag {
-    padding-bottom: 20px; }
+    padding-bottom: 0px; }
     .blog_info .post_tag a {
       font: 300 14px/21px "Roboto", sans-serif;
-      color: #f8f8f8; }
+      color: #acacac; }
       .blog_info .post_tag a:hover {
-        color: #8a8a8a; }
+        color: #fcff31; }
       .blog_info .post_tag a.active {
-        color: #766dff; }
+        color: #6dffb6; }
   .blog_info .blog_meta li a {
     font: 300 14px/20px "Roboto", sans-serif;
-    color: #777777;
+    color: rgb(207, 207, 207);
     vertical-align: middle;
     padding-bottom: 12px;
     display: inline-block; }
     .blog_info .blog_meta li a i {
-      color: #faf8f8;
+      color: #cccccc;
       font-size: 16px;
       font-weight: 600;
       padding-left: 15px;
       line-height: 20px;
       vertical-align: middle; }
     .blog_info .blog_meta li a:hover {
-      color: #766dff; }
+      color: #25ff49; }
 
 .blog_post img {
   max-width: 100%; }
@@ -577,13 +580,16 @@ button:focus {
   padding-top: 20px; }
   .blog_details h2 {
     font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
     line-height: 36px;
-    color: #ffffff;
+    color: #f0f0f0;
     font-weight: 600;
     transition: all 0.3s linear; }
     .blog_details h2:hover {
-      color: #766dff; }
+      color: #6dff6d; }
   .blog_details p {
+    color: rgb(240, 240, 240);
     margin-bottom: 26px; }
 
 .view_btn {
@@ -596,15 +602,15 @@ button:focus {
   background: #fff; }
 
 .blog_right_sidebar {
-  border: 1px solid #eeeeee;
-  background: #000;
-  padding: 20px; }
+  border: 1px solid rgba(52, 52, 52);
+  background: rgb(52, 52, 52);
+  padding: 80px; }
   .blog_right_sidebar .widget_title {
     font-size: 18px;
     line-height: 25px;
-    background: #766dff;
+    background: #82e6ff;
     text-align: center;
-    color: rgb(7, 6, 6);
+    color: rgba(52, 52, 52);
     padding: 8px 0px;
     margin-bottom: 30px; }
   .blog_right_sidebar .search_widget .input-group .form-control {
@@ -642,24 +648,27 @@ button:focus {
     z-index: 1; }
   .blog_right_sidebar .author_widget {
     text-align: center; }
-    .blog_right_sidebar .author_widget h4 {
+    .blog_right_sidebar .author_widget h4 a{
       font-size: 18px;
       line-height: 20px;
       color: #fafafa;
-      margin-bottom: 5px;
-      margin-top: 30px; }
-    .blog_right_sidebar .author_widget p {
-      margin-bottom: 0px; }
+      margin-bottom: 10px;
+      margin-top: 10px; }
+    .blog_right_sidebar .author_widget p a{
+      margin-bottom: 0px;
+      color: #cacaca;
+      font-size: 15px; }
     .blog_right_sidebar .author_widget .social_icon {
-      padding: 7px 0px 15px; }
+      padding: 10px 0px 15px;
+      margin-bottom: 10px; }
       .blog_right_sidebar .author_widget .social_icon a {
         font-size: 14px;
         color: #ffffff;
         transition: all 0.2s linear; }
         .blog_right_sidebar .author_widget .social_icon a + a {
-          margin-left: 20px; }
+          margin-left: 15px; }
         .blog_right_sidebar .author_widget .social_icon a:hover {
-          color: #eae9f0; }
+          color: #1cff42; }
   .blog_right_sidebar .popular_post_widget .post_item .media-body {
     justify-content: center;
     align-self: center;
@@ -676,6 +685,12 @@ button:focus {
       font-size: 12px;
       line-height: 21px;
       margin-bottom: 0px; }
+    .author_widget h4 a:hover{
+      color: #02ff81;
+    }
+    .author_widget p a:hover{
+      color: #02ff81;
+    }
   .blog_right_sidebar .popular_post_widget .post_item + .post_item {
     margin-top: 20px; }
   .blog_right_sidebar .post_category_widget .cat-list li {
@@ -757,8 +772,8 @@ button:focus {
   .blog_right_sidebar .br {
     width: 100%;
     height: 1px;
-    background: #eeeeee;
-    margin: 30px 0px; }
+    background: #e0e0e0;
+    margin: 25px 0px; }
 
 .blog-pagination {
   padding-top: 25px;
@@ -806,12 +821,12 @@ button:focus {
     display: inline-block;
     margin-bottom: 10px; }
     .single-post-area .social-links li a {
-      color: #cccccc;
+      color: #b3b3b3;
       padding: 7px;
       font-size: 14px;
       transition: all 0.2s linear; }
       .single-post-area .social-links li a:hover {
-        color: #222222; }
+        color: #6dff50; }
 .single-post-area .blog_details {
   padding-top: 26px; }
   .single-post-area .blog_details p {
@@ -820,11 +835,11 @@ button:focus {
   margin-top: 20px;
   margin-bottom: 30px;
   padding: 24px 35px 24px 30px;
-  background-color: white;
+  background-color: rgb(63, 22, 22);
   box-shadow: -20.84px 21.58px 30px 0px rgba(176, 176, 176, 0.1);
   font-size: 14px;
   line-height: 24px;
-  color: #777;
+  color: rgb(255, 255, 255);
   font-style: italic; }
 .single-post-area .arrow {
   position: absolute; }
@@ -832,7 +847,7 @@ button:focus {
     font-size: 20px;
     font-weight: 600; }
 .single-post-area .thumb .overlay-bg {
-  background: rgba(0, 0, 0, 0.8); }
+  background: rgba(255, 249, 249, 0.8); }
 .single-post-area .navigation-area {
   border-top: 1px solid #eee;
   padding-top: 30px;
@@ -842,12 +857,12 @@ button:focus {
   .single-post-area .navigation-area h4 {
     font-size: 18px;
     line-height: 25px;
-    color: #ffffff; }
+    color: #80ffff; }
   .single-post-area .navigation-area .nav-left {
     text-align: left; }
     .single-post-area .navigation-area .nav-left .thumb {
       margin-right: 20px;
-      background: #000; }
+      background: rgb(137, 141, 140); }
       .single-post-area .navigation-area .nav-left .thumb img {
         transition: all 300ms linear 0s; }
     .single-post-area .navigation-area .nav-left .lnr {
@@ -881,9 +896,9 @@ button:focus {
     padding-bottom: 0px; } }
 
 .comments-area {
-  background: #000000;
-  border: 1px solid #eee;
-  padding: 50px 30px;
+  background: rgb(53, 51, 51);
+  border: 1px solid rgb(53, 51, 51);
+  padding: 0px 0px;
   margin-top: 50px; }
   @media (max-width: 414px) {
     .comments-area {
@@ -934,10 +949,10 @@ button:focus {
       color: #fff; }
 
 .comment-form {
-  background: #000000;
+  background: rgb(53, 51, 51);
   text-align: center;
-  border: 1px solid #eee;
-  padding: 47px 30px 43px;
+  border: 1px solid rgb(53, 51, 51));
+  padding: 0px 0px 0px;
   margin-top: 50px;
   margin-bottom: 0px; }
   .comment-form h4 {
@@ -959,7 +974,7 @@ button:focus {
         padding-left: 0px; } }
   .comment-form .form-control {
     padding: 8px 20px;
-    background: rgb(0, 100, 139);
+    background: rgb(213, 214, 214);
     border: none;
     border-radius: 0px;
     width: 100%;
