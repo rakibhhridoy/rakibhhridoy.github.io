@@ -788,9 +788,9 @@ button:focus {
   font-weight: 400; }
 
 .blog-pagination .page-item.active .page-link {
-  background-color: #766dff;
+  background-color: #6dffec;
   border-color: transparent;
-  color: #fff; }
+  color: rgb(12, 12, 12); }
 
 .blog-pagination .page-link {
   position: relative;
@@ -1284,8 +1284,8 @@ button:focus {
 .greeting{
   color: rgb(176, 255, 242);
   text-align: center;
-  font-size: 335%;
-  font-family:"Playfair Display", Georgia, serif;  
+  font-size: 305%;
+  font-family:monospace;  
   
   font-weight: bolder;
 }
