@@ -1286,8 +1286,12 @@ button:focus {
   text-align: center;
   font-size: 335%;
   font-family:"Playfair Display", Georgia, serif;  
-  font-style: italic;
+  
   font-weight: bolder;
+}
+
+.greeting p{
+  font-size: 20%;
 }
 .greeting:hover{
   color: rgb(176, 255, 242);
@@ -1299,8 +1303,8 @@ button:focus {
   color: #90ffe7;
   text-align: center;
   font-size: 130%;
-  font-family:"Playfair Display", Georgia, serif;  
-  font-style: italic;
+  font-family: cursive; 
+
 }
 .greeting_p:hover{
   color:rgb(6, 255, 18);
@@ -1317,4 +1321,18 @@ button:focus {
   text-align: center;
   font-size: 140%;
   font-family: cursive;
+}
+
+
+.greeting_cer{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 140%;
+  font-family: cursive;
+}
+
+.hori_proj{
+  text-align: center;
+  width: 40%;
+  background: #02ff81;
 }
