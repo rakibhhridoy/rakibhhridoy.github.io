@@ -246,7 +246,7 @@ figure {
 
 #rakibhhridoy-hero {
   min-height: 500px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  background: rgb(56, 55, 55) url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
   margin-bottom: 10em;

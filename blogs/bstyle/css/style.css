@@ -1279,3 +1279,42 @@ button:focus {
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
+
+
+.greeting{
+  color: rgb(176, 255, 242);
+  text-align: center;
+  font-size: 335%;
+  font-family:"Playfair Display", Georgia, serif;  
+  font-style: italic;
+  font-weight: bolder;
+}
+.greeting:hover{
+  color: rgb(176, 255, 242);
+  font-family: monospace;
+  font-size: 300%;
+}
+
+.greeting_p {
+  color: #90ffe7;
+  text-align: center;
+  font-size: 130%;
+  font-family:"Playfair Display", Georgia, serif;  
+  font-style: italic;
+}
+.greeting_p:hover{
+  color:rgb(6, 255, 18);
+}
+
+.hori{
+  text-align: center;
+  width: 50%;
+  background: #02ff81;
+}
+
+.greeting_h{
+  color: rgb(157, 255, 162);
+  text-align: center;
+  font-size: 140%;
+  font-family: cursive;
+}
