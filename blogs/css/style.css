@@ -47,8 +47,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }
 
 .heading{
-  color:#fff;
-  font-family: cursive;
+  color:#d6fff5;
+  font-family: Ubuntu;
 }
 
 
@@ -79,7 +79,7 @@ button:focus {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px; } }
+    max-width: 1300px; } }
 
 @media (min-width: 1620px) {
   .box_1620 {
@@ -129,13 +129,13 @@ button:focus {
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 12px/120px "Roboto", sans-serif;
         text-transform: uppercase;
-        color: #fff;
+        color: rgb(116, 255, 81);
         padding: 0px;
         display: inline-block; }
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #fff; }
+        color: rgb(155, 255, 41); }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
@@ -151,7 +151,7 @@ button:focus {
               position: absolute;
               top: 120%;
               left: 0px;
-              min-width: 200px;
+              min-width: 100px;
               text-align: left;
               opacity: 0;
               transition: all 300ms ease-in;
@@ -191,7 +191,7 @@ button:focus {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
               background: #a7a7af;
-              color: #fff; }
+              color: rgb(250, 250, 250); }
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
             visibility: visible;
@@ -215,7 +215,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #000;
+    background: rgb(79, 80, 80);
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -505,8 +505,9 @@ button:focus {
     left: 20px;
     right: 20px;
     bottom: 20px;
-    background: rgba(34, 34, 34, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     color: #fff;
+    opacity: 0.9;
     transition: all 0.3s linear;
     display: flex;
     align-items: center;
@@ -516,7 +517,7 @@ button:focus {
       font-size: 18px;
       line-height: 26px;
       text-transform: uppercase;
-      color: #fff;
+      color: rgb(255, 255, 255);
       position: relative; }
     .categories_post .categories_details p {
       font-weight: 300;
@@ -529,10 +530,11 @@ button:focus {
       width: 100%;
       height: 1px; }
   .categories_post:hover .categories_details {
-    background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    opacity: 0.851; }
+    background-image: -moz-linear-gradient(0deg, #2e2e2e 0%, #3a3a3a 100%);
+    background-image: -webkit-linear-gradient(0deg, #1b1b1b 0%, #3c3d3d 100%);
+    background-image: -ms-linear-gradient(0deg, #2f302f 0%, #252c2c 100%);
+    color: rgb(255, 255, 255);
+    opacity: 0.85; }
 
 /*============ blog_left_sidebar css ==============*/
 .blog_item {
@@ -596,7 +598,7 @@ button:focus {
 .blog_right_sidebar {
   border: 1px solid #eeeeee;
   background: #000;
-  padding: 30px; }
+  padding: 20px; }
   .blog_right_sidebar .widget_title {
     font-size: 18px;
     line-height: 25px;
