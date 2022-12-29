@@ -77,7 +77,7 @@ figure {
 }
 
 .position a:hover{
-  color: #fa3434;
+  color: rgb(116, 99, 3);
 }
 
 #rakibhhridoy-aside {
@@ -132,7 +132,7 @@ figure {
       color: rgb(33, 36, 34);
       padding-right: .3em; }
     #rakibhhridoy-aside #rakibhhridoy-logo a:hover{
-      color: #f61b26;
+      color: rgb(116, 99, 3);
     }
   #rakibhhridoy-aside #rakibhhridoy-main-menu {
     display: block;
