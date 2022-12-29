@@ -19,9 +19,9 @@ body {
 
 a {
   color: #ffffff;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s; }
   a:hover, a:active, a:focus {
     color: #d9ff00;
     outline: none;
@@ -77,7 +77,7 @@ figure {
 }
 
 .position a:hover{
-  color: #fa3434;
+  color: rgb(116, 99, 3);
 }
 
 #rakibhhridoy-aside {
@@ -91,9 +91,9 @@ figure {
   padding-left: 1em;
   z-index: 1001;
   background: #f8f8f8;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s; }
   @media screen and (max-width: 768px) {
     width: 300px;
       -moz-transform: translateX(-300px);
@@ -128,10 +128,10 @@ figure {
       display: block;
       text-align: center;
       font-family: ubuntu;
-      color: rgb(33, 36, 34);
+      color: rgba(31, 32, 32, 0.938);
       padding-right: .3em; }
     #rakibhhridoy-aside #rakibhhridoy-logo a:hover{
-      color: #f61b26;
+      color: rgb(116, 99, 3);
     }
   #rakibhhridoy-aside #rakibhhridoy-main-menu {
     display: block;
@@ -161,9 +161,9 @@ figure {
           padding: 10px 0px;
           font-family: ubuntu;
           font-weight: bold;
-          -webkit-transition: 0.3s;
-          -o-transition: 0.3s;
-          transition: 0.3s; }
+          -webkit-transition: 0.35s;
+          -o-transition: 0.35s;
+          transition: 0.35s; }
           #rakibhhridoy-aside #rakibhhridoy-main-menu ul li a:after {
             content: "";
             position: absolute;
@@ -244,9 +244,9 @@ figure {
   font-weight: bold;
   font-size: large;
 /*  text-shadow: 1px 1px rgb(128, 128, 128); */
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s; }
   @media screen and (max-width: 768px) {
     #rakibhhridoy-main {
       width: 100%;
@@ -803,9 +803,9 @@ small a:hover{
       -ms-transform: scale(1);
       -o-transform: scale(1);
       transform: scale(1);
-      -webkit-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s; }
+      -webkit-transition: 0.35s;
+      -o-transition: 0.35s;
+      transition: 0.35s; }
   .blog-entry .desc h3 {
     font-size: 16px;
     margin-bottom: 20px;
@@ -878,9 +878,9 @@ small a:hover{
     right: 0;
     background: #02dd94;
     opacity: 0;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s; }
+    -webkit-transition: 0.35s;
+    -o-transition: 0.35s;
+    transition: 0.35s; }
     .project .desc .con {
       padding: 20px;
       display: block;
@@ -1072,9 +1072,9 @@ small a:hover{
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   border-radius: 2px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s;
   padding: 8px 15px !important; }
   .btn.btn-sm {
     padding: 4px 15px !important; }
@@ -1168,9 +1168,9 @@ small a:hover{
   background: none;
   border: 2px solid gray;
   font-size: 16px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s; }
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
     -webkit-box-shadow: none;
     box-shadow: none; }
@@ -1267,9 +1267,9 @@ small a:hover{
   opacity: 1;
   visibility: hidden;
   padding: 20px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s; }
   @media screen and (max-width: 768px) {
     .rakibhhridoy-nav-toggle {
       opacity: 1;
