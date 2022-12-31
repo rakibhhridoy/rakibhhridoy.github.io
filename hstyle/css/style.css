@@ -85,7 +85,7 @@ figure {
   padding-bottom: 40px;
   float: left;
   width: 320px;
-  position: fixed;
+  position: relative;
   overflow-y: hidden;
   padding-right: 1em;
   padding-left: 1em;
@@ -95,13 +95,13 @@ figure {
   -o-transition: 0.35s;
   transition: 0.35s; }
   @media screen and (max-width: 768px) {
-    width: 300px;
-      -moz-transform: translateX(-300px);
+    width: 320px;
+      -moz-transform: translateX(-320px);
     #rakibhhridoy-aside {
-      -webkit-transform: translateX(-300px);
-      -ms-transform: translateX(-300px);
-      -o-transform: translateX(-300px);
-      transform: translateX(-300px);
+      -webkit-transform: translateX(-320px);
+      -ms-transform: translateX(-320px);
+      -o-transform: translateX(-320px);
+      transform: translateX(-320px);
       padding-top: 4em; } }
   #rakibhhridoy-aside .author-img {
     width: 150px;
@@ -136,7 +136,8 @@ figure {
   #rakibhhridoy-aside #rakibhhridoy-main-menu {
     display: block;
     height: 30%;
-    width: 100%; }
+    width: 100%;
+    position: relative; }
     #rakibhhridoy-aside #rakibhhridoy-main-menu .collapse {
       display: block !important; }
     #rakibhhridoy-aside #rakibhhridoy-main-menu ul {
