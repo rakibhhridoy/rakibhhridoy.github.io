@@ -153,9 +153,52 @@
 													groupmod
 													id
 													who 
+													passwd
 												</code></pre>
 												<br><br>
+
+											X.X Looking who is logged on and what they are doing <br>
+											<code>w</code> displays  information  about the users currently on the machine, and
+											their processes. <br> <br>
+
+											03:15:18 up  1:47,  7 users,  load average: 0.51, 0.88, 1.03 <br> 
+											[current  time, system running time, number of users, system load averages for past 1, 5, and 15  min] 
+											<br>
+
+											[ <br>
+											 User   -- username <br>  
+											 TTY    -- tty name <br>
+											 LOGIN@ -- login time <br>
+											 IDLE   -- idle time <br>
+											 JCPU   --  time used by all processes attached to the tty.
+											 			It doesn't include past background jobs, but  does  include  currently
+											 			running background jobs. <br>
+											 PCPU   -- time used by the current process, named in the "what" field. <br>
+											 WHAT   -- command running <br>
+											 ]
+
+
+
 											
+											
+											<pre class="language-output"><code>
+											$	w 
+
+											
+												03:15:18 up  1:47,  7 users,  load average: 0.51, 0.88, 1.03
+												USER     TTY        LOGIN@   IDLE   JCPU   PCPU WHAT
+												RHHLab   tty2      01:28    1:46m  0.12s  0.12s /usr/bin/startplasma-wayland
+												RHHLab   pts/0     01:28    1:46m  0.00s  1.49s /usr/bin/kded5
+												RHHLab   pts/1     01:28    1:40m  1.66s  1.53s /usr/bin/zsh
+												RHHLab   pts/2     01:35    1:34m  2.84s  2.34s /home/RHHLab/anaconda3/bin/pyth
+												RHHLab   pts/3     01:35   53.00s  1.95s  1.78s /usr/bin/zsh
+												RHHLab   pts/4     01:35    1:40m  0.65s  0.53s /usr/bin/zsh
+												RHHLab   pts/5     01:35    1:40m  0.63s  0.52s /usr/bin/zsh
+											</code></pre>
+											
+											
+											<br>
+											<br>
 											2.2 Super User <br>
 											There are three types of users in linux system:: <br>
 
@@ -168,13 +211,18 @@
 											don't know what he is doing or what to type. It is also a bad habit regardless of their expertise, a single mistake can break the system. <br>
 											That dosen't mean linux is unstable, hell no! It's a good habit to be 100% sure that your change will not break the system, even if it did, <br>
 											you can fix it later easily. <br> <br>
-											log in root user: <br>
+											log in as root user: <br>
 											<pre class="language-bash"><code>
 												su --root
 
 												#switch user/ superuser [su]
 
 											</code></pre>
+											<br><br>
+											Sudoers file:: <br>
+											sudoers file contains all the user information and userlist in <code>/etc/sudoers</code><br>
+											<code>visudo</code> command should be used to change /etc/sudoers file. It is recommended to not touch the file untill needed!
+
 											
 											
 											
