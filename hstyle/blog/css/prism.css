@@ -55,6 +55,7 @@ pre[class*=language-]{
 .language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{
     color:#f8f8f2
 }
+
 .token.atrule,.token.attr-value,.token.class-name,.token.function{
     color:#e6db74
 }
@@ -211,5 +212,4 @@ div.code-toolbar>.toolbar>.toolbar-item>a:focus,div.code-toolbar>.toolbar>.toolb
     color:inherit;
     text-decoration:none
 }
- 
  
