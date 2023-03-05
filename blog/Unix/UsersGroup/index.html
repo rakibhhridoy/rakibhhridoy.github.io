@@ -114,7 +114,7 @@
 									<div class="col-md-12">
 										<div class="about-desc">
 											<span class="heading-meta">Linux Adminitstration (8)</span>
-											<h2 class="rakibhhridoy-heading">Systems ReInstallation Automation</h2>
+											<h2 class="rakibhhridoy-heading">Users and Group</h2>
 											<br>
 											<!--
 											<div class="LI-profile-badge" data-version="v1" data-size="medium"
@@ -122,64 +122,119 @@
 												data-vanity="rakibhhridoy"><a class="LI-simple-link"
 													href='https://bd.linkedin.com/in/rakibhhridoy?trk=profile-badge'>Linkedin</a></div>
 											-->
+											
+											 This article is about objectives 2.0 of comptia linux+, security section dealt with users and groups utilities. The section alos included
+											 with the utilities of <br>
+											 default shell, configuration and account management.
+											
+											<br> <br>
+											 Learning Objectives:: <br>
+											&emsp; + Account Creation and Deletion <br>
+											&emsp; + Default shell <br>
+											&emsp; + Configuration files <br>
+											&emsp; + Account management <br>
+											
+												<br> 
+												<br>
+												Commands:: <br>
 
-											 We often breaks our running system and we lose all the necessary installations and configuration that we were enjoying. And after breaking <br> 
-											 the system we again start to process reinstalling all the applications and configuration by searching here and there for installation instructions. <br> <br> 
-											 It's the same problem I face in regular intervals. So why not write some script once, so I can be on my track as soon as my system breaks.<br>
-											 That's the reason I've written some scripts to automate my installations in Python so most of you can edit them by your own. The scripts <br> 
-											 are simple and convenient so anyone can understand and reconfigure as they wish. 
-											 <br>
-											 <br>
+												<pre class="language-bash"><code>
+													useradd    
+													groupadd
+													userdel
+													groupdel
+													usermod
+													groupmod
+													id
+													who 
+													passwd
+												</code></pre>
+												<br><br>
+
+											X.X Looking who is logged on and what they are doing <br>
+											<code>w</code> displays  information  about the users currently on the machine, and
+											their processes. <br> <br>
+
+											03:15:18 up  1:47,  7 users,  load average: 0.51, 0.88, 1.03 <br> 
+											[current  time, system running time, number of users, system load averages for past 1, 5, and 15  min] 
+											<br>
+
+											[ <br>
+											 User   -- username <br>  
+											 TTY    -- tty name <br>
+											 LOGIN@ -- login time <br>
+											 IDLE   -- idle time <br>
+											 JCPU   --  time used by all processes attached to the tty.
+											 			It doesn't include past background jobs, but  does  include  currently
+											 			running background jobs. <br>
+											 PCPU   -- time used by the current process, named in the "what" field. <br>
+											 WHAT   -- command running <br>
+											 ]
+
+
+
 											
-											Github Project Link::<p><a href="https://github.com/rakibhhridoy/SystemsReInstall">SystemsReInstall</a></p>
-											<br> 
-											<br>
-											Systems:: <br>
-											&emsp; + Debian <br>
-											&emsp; + Arch <br>
-											&emsp; + Fedora <br>
-											<br>
 											
-											Applications:: <br> 
-											&emsp; + IDE's 										&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 					+ Utilities 				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 																							+ Social <br>			
-											&emsp; &emsp; + VS Code 							&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; 				+ bat				&nbsp;&nbsp;&nbsp;&nbsp;&emsp; &emsp; 	+ wireshark 						&emsp;&nbsp;&nbsp;&nbsp; 				+ wget 							&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; 									+ Telegram <br>
-											&emsp; &emsp; + Vim 	  	  						&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;  					+ curl 				&emsp;&emsp; &emsp; 					+ yakuake 							&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	+ git 							&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp; 			+ Discord <br>
-											&emsp; &emsp; + LazyNeoVim 			  				&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp; 							+ htop 				&nbsp;&nbsp;&emsp; &emsp; 				+ gzip								&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; 	+ neofetch <br>
-											&emsp; &emsp; + Nano 								&nbsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp; 					+ tar				&nbsp;&emsp; &emsp;&emsp;	 			+ tree <br>
-											<br><br>
-											Languages:: 										&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 												Container & Virtualization:: <br>
-											&emsp; &emsp; + python								&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp; 										+ docker <br>
-											&emsp; &emsp; + rust 								&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		+ qemu <br>
-											&emsp; &emsp; + golang 								&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp; 										+ virtualbox <br>
-											<br>
-											<br>
-											Browser:: 											&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 								Man Pages::				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 										Media::			<br>											
-											&emsp; &emsp; + firefox 							&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  				+ bropages			&nbsp;&nbsp;&nbsp;&nbsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;									+ okular	 	<br>					
-											&emsp; &emsp; + brave-browser 	  	  				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;					 		  							+ tldr 					&emsp;&emsp; &emsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 				+ ktorrent 		<br>
-											<br><br> 
-											<br>
-											<pre class="language-bash"><code>
-												git clone https://github.com/rakibhhridoy/SystemsReInstall
-												cd SystemsReInstall
-												cd Debian 					# or Arch23 or Fedora36
-												
-												sh init
+											<pre class="language-output"><code>
+											$	w 
+
+											
+												03:15:18 up  1:47,  7 users,  load average: 0.51, 0.88, 1.03
+												USER     TTY        LOGIN@   IDLE   JCPU   PCPU WHAT
+												RHHLab   tty2      01:28    1:46m  0.12s  0.12s /usr/bin/startplasma-wayland
+												RHHLab   pts/0     01:28    1:46m  0.00s  1.49s /usr/bin/kded5
+												RHHLab   pts/1     01:28    1:40m  1.66s  1.53s /usr/bin/zsh
+												RHHLab   pts/2     01:35    1:34m  2.84s  2.34s /home/RHHLab/anaconda3/bin/pyth
+												RHHLab   pts/3     01:35   53.00s  1.95s  1.78s /usr/bin/zsh
+												RHHLab   pts/4     01:35    1:40m  0.65s  0.53s /usr/bin/zsh
+												RHHLab   pts/5     01:35    1:40m  0.63s  0.52s /usr/bin/zsh
 											</code></pre>
 											
-											<br><br>
-											That's all! You can contribute to add more features and functionality as you wish. It's quite necessary for us to contribute some time in automation <br>
-											
-											
-											
-											
-											
 											
 											<br>
 											<br>
-											<br>
-											<br>
-											<br>
+											2.2 Super User <br>
+											There are three types of users in linux system:: <br>
 
+											&emsp; . super user [root] <br>
+											&emsp; . standard user <br>
+											&emsp; . service user [e.g http, crond] <br>
+											Giving least privilege, the access on needed the system will remain secure !! [best practice] 
+											<br><br>
+											Super user is root user that controls everything in linux system. Booting in root user is not a good idea, when the reponsible person <br>
+											don't know what he is doing or what to type. It is also a bad habit regardless of their expertise, a single mistake can break the system. <br>
+											That dosen't mean linux is unstable, hell no! It's a good habit to be 100% sure that your change will not break the system, even if it did, <br>
+											you can fix it later easily. <br> <br>
+											log in as root user: <br>
+											<pre class="language-bash"><code>
+												su --root
+
+												#switch user/ superuser [su]
+
+											</code></pre>
+											<br><br>
+											Sudoers file:: <br>
+											sudoers file contains all the user information and userlist in <code>/etc/sudoers</code><br>
+											<code>visudo</code> command should be used to change /etc/sudoers file. It is recommended to not touch the file untill needed!
+
+											
+											
+											
+											
+											
+											
+											<br>
+											<br>
+											<br>
+											<br>
+											<br>
+											<br>
+											<br>
+											<br>
+											<br>
+											<br>
+											<br>
+											<br>
 
 
 
@@ -198,7 +253,7 @@
 							<div class="row">
 								<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
 									data-animate-effect="fadeInLeft">
-									<a href="https://rakibhhridoy.live/blog/"><span class="heading-meta">Unix</span></a>
+									<a href="https://rakibhhridoy.live/blog/"><span class="heading-meta">Data Science</span></a>
 									<h2 class="rakibhhridoy-heading">Similar Reading</h2>
 								</div>
 							</div>
@@ -258,7 +313,7 @@
 							</div>
 							<div class="row">
 								<div class="col-md-12 animate-box">
-									<p><a href="blog/" class="btn btn-primary btn-lg btn-load-more">More Unix<i
+									<p><a href="blog/" class="btn btn-primary btn-lg btn-load-more">More Data Science<i
 												class="icon-reload"></i></a></p>
 								</div>
 							</div>
